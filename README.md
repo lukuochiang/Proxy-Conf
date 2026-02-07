@@ -1,48 +1,56 @@
 # Proxy-Conf
 
-A collection of proxy configuration files for various proxy tools.
+各种代理工具的配置文件集合
 
-## Included Proxy Tools
+## 包含的代理工具
 
-This repository contains configuration files for the following proxy tools:
+本仓库包含以下代理工具的配置文件：
 - Clash
-- Egern 
+- Egern
 - Loon
 - Quantumult X
 - Stash
 - Surge
 
-## Directory Structure
+## 目录结构
 
 ```
 Proxy-Conf/
-  ├── reference/          # Configuration files for different proxy tools
-  │   ├── Clash/          # Clash configuration files
-  │   ├── Egern/          # Egern configuration files  
-  │   ├── Loon/           # Loon configuration files
-  │   ├── Quantumult X/   # Quantumult X configuration files
-  │   ├── Stash/          # Stash configuration files
-  │   └── Surge/          # Surge configuration files
-  │       ├── Lucky/      # Lucky configuration for Surge
-  │       └── Rabbit-Spec/ # Rabbit-Spec configuration for Surge
-  ├── .gitignore          # Git ignore rules
-  └── LICENSE             # License file
+  ├── reference/          # 不同代理工具的配置文件
+  │   ├── Clash/          # Clash 配置文件
+  │       ├── 666OS/      # 666OS 配置 (ClashMac)
+  │   ├── Egern/          # Egern 配置文件
+  │   ├── Loon/           # Loon 配置文件
+  │   ├── Quantumult X/   # Quantumult X 配置文件
+  │   ├── Stash/          # Stash 配置文件
+  │   └── Surge/          # Surge 配置文件
+  │       ├── Lucky/      # Lucky 配置 (Surge)
+  │       └── Rabbit-Spec/ # Rabbit-Spec 配置 (Surge)
+  ├── .gitignore          # Git 忽略规则
+  └── LICENSE             # 许可证文件
 ```
 
-## Usage
+## 特性
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/Proxy-Conf.git
-   ```
+- **多平台支持**: 流行代理工具的配置文件
+- **组织有序的结构**: 清晰的目录结构便于导航
+- **开箱即用**: 预配置的设置可直接使用或调整
 
-2. Navigate to the specific proxy tool directory:
-   ```bash
-   cd Proxy-Conf/reference/[Proxy-Tool-Name]
-   ```
+## 许可证
 
-3. Copy the configuration file to your proxy tool's configuration directory.
+本项目遵循 [LICENSE](LICENSE) 文件中的条款。
 
-## License
+## 免责申明
+1、任何以任何方式查看此项目的人或直接或间接使用该项目的使用者都应仔细阅读此声明。
 
-This project is licensed under the terms of the [LICENSE](LICENSE) file.
+2、保留随时更改或补充此免责声明的权利。
+
+3、一旦使用并复制了该项目的任何文件，则视为您已接受此免责声明:
+- 本项目涉及的脚本仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断。
+- 间接使用该项目的任何用户，包括但不限于建立VPS或在某些行为违反国家/地区法律或相关法规的情况下进行传播, 本项目对于由此引起的任何隐私泄漏或其他后果概不负责。
+- 请勿将本项目的任何内容用于商业或非法目的，否则后果自负。
+- 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本。
+- 对任何脚本问题概不负责，包括但不限于由任何脚本错误导致的任何损失或损害。
+- 您必须在下载后的24小时内从计算机或手机中完全删除以上内容。
+
+4、本项目的任何内容均来源于网络，用户应自行承担使用风险。
