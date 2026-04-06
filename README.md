@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/proxy-conf.png" alt="Proxy-Conf Logo" width="200">
+</div>
+
 # Proxy-Conf
 
 各种代理工具的配置文件集合
